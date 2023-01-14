@@ -1,0 +1,122 @@
+{
+    "basic_info": {
+      "description_header": "Cześć",
+      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
+      "section_name": {
+        "about": "O mnie",
+        "projects": "Projekty",
+        "skills": "Umiejętności",
+        "experience": "Doświadczenie"
+      }
+    },
+    "projects": [
+      {
+        "title": "Limontrello",
+        "startDate": "Dec 2022",
+        "description": "A productivity tool inspired by Trello that helps organize your tasks for any topic. This is my most proudful project to date because of not only the styling but the functionality for dragging tasks around.",
+        "images": [
+          "images/portfolio/limontrello/limontrello1.png",
+          "images/portfolio/limontrello/limontrello2.png",
+          "images/portfolio/limontrello/limontrello3.png"
+        ],
+        "url": "https://limontrello.onrender.com/",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-flask-original",
+            "name": "Flask"
+          },
+          {
+            "class": "devicon-redux-original",
+            "name": "Redux"
+          }
+        ]
+      },
+      {
+        "title": "Hangers Academy",
+        "startDate": "Nov 2022",
+        "description": "A Discord-clone made in collaboration with 3 other peers from App Academy bootcamp.",
+        "images": [
+          "images/portfolio/hangersacademy/hangers3.png",
+          "images/portfolio/hangersacademy/hangers1.png",
+          "images/portfolio/hangersacademy/hangers2.png"
+        ],
+        "url": "https://hangersacademy.com/",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-flask-original",
+            "name": "Flask"
+          },
+          {
+            "class": "devicon-redux-original",
+            "name": "Redux"
+          }
+        ]
+      },
+      {
+        "title": "Overnight SnS",
+        "startDate": "Oct 2022",
+        "description": "My first project during my time at App Academy. This project provided the foundation of my understanding and connection between the backend and frontend we had been learning.",
+        "images": [
+          "images/portfolio/overnightsns/osns1.png",
+          "images/portfolio/overnightsns/osns2.png"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-redux-original",
+            "name": "Redux"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "Express"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "DefOpenSource",
+        "title": "Front-End Developer",
+        "years": "10.2019 - obecnie",
+        "mainTech": [
+          "Angular 8/9/10"
+        ],
+        "technologies": [
+          "REST API",
+          "RxJS",
+          "JavaScript",
+          "Bootstrap",
+          "MDBootstrap",
+          "EF Core",
+          "Angular Material"
+        ]
+      },
+      {
+        "company": "Serros Solutions",
+        "title": "Stażystka",
+        "years": "01.2018 - 09.2019",
+        "mainTech": [
+          "Angular 7/8"
+        ],
+        "technologies": [
+          "REST API",
+          "RxJS",
+          "Swagger",
+          "JavaScript",
+          "DHTMLX Gantt"
+        ]
+      }
+    ]
+  }
