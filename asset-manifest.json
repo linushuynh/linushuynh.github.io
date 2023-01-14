@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/linushuynh/linushuynh.github.io/static/css/main.08285bb6.chunk.css",
+    "main.js": "/linushuynh/linushuynh.github.io/static/js/main.e3519cda.chunk.js",
+    "main.js.map": "/linushuynh/linushuynh.github.io/static/js/main.e3519cda.chunk.js.map",
+    "runtime-main.js": "/linushuynh/linushuynh.github.io/static/js/runtime-main.5e0fa272.js",
+    "runtime-main.js.map": "/linushuynh/linushuynh.github.io/static/js/runtime-main.5e0fa272.js.map",
+    "static/css/2.d64471e2.chunk.css": "/linushuynh/linushuynh.github.io/static/css/2.d64471e2.chunk.css",
+    "static/js/2.9e49da53.chunk.js": "/linushuynh/linushuynh.github.io/static/js/2.9e49da53.chunk.js",
+    "static/js/2.9e49da53.chunk.js.map": "/linushuynh/linushuynh.github.io/static/js/2.9e49da53.chunk.js.map",
+    "index.html": "/linushuynh/linushuynh.github.io/index.html",
+    "precache-manifest.cafc837f6696cfcd74a338bb62e41666.js": "/linushuynh/linushuynh.github.io/precache-manifest.cafc837f6696cfcd74a338bb62e41666.js",
+    "service-worker.js": "/linushuynh/linushuynh.github.io/service-worker.js",
+    "static/css/2.d64471e2.chunk.css.map": "/linushuynh/linushuynh.github.io/static/css/2.d64471e2.chunk.css.map",
+    "static/css/main.08285bb6.chunk.css.map": "/linushuynh/linushuynh.github.io/static/css/main.08285bb6.chunk.css.map",
+    "static/js/2.9e49da53.chunk.js.LICENSE.txt": "/linushuynh/linushuynh.github.io/static/js/2.9e49da53.chunk.js.LICENSE.txt",
+    "static/media/pikarun.gif": "/linushuynh/linushuynh.github.io/static/media/pikarun.6e190eb7.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5e0fa272.js",
+    "static/css/2.d64471e2.chunk.css",
+    "static/js/2.9e49da53.chunk.js",
+    "static/css/main.08285bb6.chunk.css",
+    "static/js/main.e3519cda.chunk.js"
+  ]
+}

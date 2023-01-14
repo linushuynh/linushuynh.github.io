@@ -1,0 +1,132 @@
+{
+    "basic_info": {
+      "description_header": "Hey there!",
+      "description": "My name's Linus and for those wondering: yes my name was influenced by Linux. Thanks for checking out my portfolio site. Before my time as a software engineer, I graduated with a B.S. in Psychology at University of California, Riverside. I decided that pathway was not fit for me and decided to pursue a field that revolved more around computers since that was where I was most comfortable and most versed in. I discovered software engineering and enrolled at App Academy, a rigorous software engineering bootcamp. It was the most packed and intense 6 months of my life. I love talking about my experience at the bootcamp, so please feel free to reach out. Anyway, check out the rest of my projects and info below! ",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "Limontrello",
+        "startDate": "Dec 2022",
+        "description": "A productivity tool inspired by Trello that helps organize your tasks for any topic. This is my most proudful project to date because of not only the styling but the functionality for dragging tasks around. The development process utilized an Agile workflow which allowed for space for flexibility and less bugs. Additionally, the drag and drop functionality was implemented through React Beautiful DnD to deliver smooth and intuitive user interactions",
+        "images": [
+          "images/portfolio/limontrello/limontrello1.png",
+          "images/portfolio/limontrello/limontrello2.png",
+          "images/portfolio/limontrello/limontrello3.png"
+        ],
+        "url": "https://limontrello.onrender.com/",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-flask-original",
+            "name": "Flask"
+          },
+          {
+            "class": "devicon-redux-original",
+            "name": "Redux"
+          }
+        ]
+      },
+      {
+        "title": "Hangers Academy",
+        "startDate": "Nov 2022",
+        "description": "A Discord-clone made in collaboration with 3 other peers from App Academy bootcamp.",
+        "images": [
+          "images/portfolio/hangersacademy/hangers3.png",
+          "images/portfolio/hangersacademy/hangers1.png",
+          "images/portfolio/hangersacademy/hangers2.png"
+        ],
+        "url": "https://hangersacademy.com/",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-flask-original",
+            "name": "Flask"
+          },
+          {
+            "class": "devicon-redux-original",
+            "name": "Redux"
+          }
+        ]
+      },
+      {
+        "title": "Overnight SnS",
+        "startDate": "Oct 2022",
+        "description": "My first project during my time at App Academy. This project provided the foundation of my understanding and connection between the backend and frontend we had been learning.",
+        "images": [
+          "images/portfolio/overnightsns/osns1.png",
+          "images/portfolio/overnightsns/osns2.png"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-redux-original",
+            "name": "Redux"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "Express"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "App Academy",
+        "title": "Student",
+        "years": "08.2022 - 01.2023",
+        "mainTech": [
+          "Software Engineering"
+        ],
+        "technologies": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Redux",
+          "Flask",
+          "SQLAlchemy",
+          "Express",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "company": "UCR Adaptation and Adversity Lab",
+        "title": "Research Assistant",
+        "years": "06.2021 - 06.2022",
+        "mainTech": [
+          "Psychology"
+        ],
+        "technologies": [
+          "Young Adults",
+          "Adolescents"
+        ]
+      },
+      {
+        "company": "Brain Game Center",
+        "title": "Research Assistant",
+        "years": "01.2018 - 09.2019",
+        "mainTech": [
+          "Psychology"
+        ],
+        "technologies": [
+          "Python",
+          "Surveys"
+        ]
+      }
+    ]
+  }

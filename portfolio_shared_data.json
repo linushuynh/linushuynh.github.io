@@ -1,0 +1,68 @@
+{
+    "basic_info": {
+      "name": "Linus Huynh",
+      "titles": [ "Full-Stack Engineer" ],
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com/linushuynh",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/linus-huynh/",
+          "class": "fab fa-linkedin"
+        }
+      ],
+      "image": "myLinusProfile.jpg"
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "Python",
+          "class": "devicon-python-plain",
+          "level": "90"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "90"
+        },
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain",
+          "level": "85"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain",
+          "level": "90"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-original",
+          "level": "85"
+        },
+        {
+          "name": "Redux",
+          "class": "devicon-redux-original",
+          "level": "70"
+        },
+        {
+          "name": "Flask",
+          "class": "devicon-flask-original",
+          "level": "80"
+        },
+        {
+          "name": "Express",
+          "class": "devicon-express-original",
+          "level": "75"
+        },
+        {
+        "name": "PostgreSQL",
+          "class": "devicon-postgresql-plain",
+          "level": "70"
+        }
+      ]
+    }
+  }
