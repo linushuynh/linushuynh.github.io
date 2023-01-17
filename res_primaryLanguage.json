@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hey there!",
-      "description": "My name's Linus and for those wondering: yes my name was influenced by Linux. Thanks for checking out my portfolio site. Before my time as a software engineer, I graduated with a B.S. in Psychology at University of California, Riverside. I decided that pathway was not fit for me and decided to pursue a field that revolved more around computers since that was where I was most comfortable and most versed in. I discovered software engineering and enrolled at App Academy, a rigorous software engineering bootcamp. It was the most packed and intense 6 months of my life. I love talking about my experience at the bootcamp, so please feel free to reach out. Anyway, check out the rest of my projects and info below! ",
+      "description": "My name's Linus. Before my time as a software engineer, I graduated with a B.S. in Psychology at University of California, Riverside. Eventually, I decided that my current path was not a proper fit for me and decided to pursue a field that revolved more around computers since that was where I was most comfortable and most versed in. I discovered software engineering and enrolled at App Academy, a rigorous 1000+ hr software engineering bootcamp. Over the course of the bootcamp, I discovered how immersive and stimulating coding could really be for and I believe my projects reflect that. Check out the some of my projects and more below! ",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -32,13 +32,21 @@
           {
             "class": "devicon-redux-original",
             "name": "Redux"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS 3"
           }
         ]
       },
       {
         "title": "Hangers Academy",
         "startDate": "Nov 2022",
-        "description": "A Discord-clone made in collaboration with 3 other peers from App Academy bootcamp.",
+        "description": "A Discord-clone made in collaboration with 3 other peers from App Academy bootcamp. We cultivated a team environment where each member was valuable and respected. We also simulated a professional Git workflow through branches and pair programming sessions which reduced debugging time and set clear expectations of various objectives.",
         "images": [
           "images/portfolio/hangersacademy/hangers3.png",
           "images/portfolio/hangersacademy/hangers1.png",
@@ -57,13 +65,21 @@
           {
             "class": "devicon-redux-original",
             "name": "Redux"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS 3"
           }
         ]
       },
       {
         "title": "Overnight SnS",
         "startDate": "Oct 2022",
-        "description": "My first project during my time at App Academy. This project provided the foundation of my understanding and connection between the backend and frontend we had been learning.",
+        "description": "My first project during my time at App Academy. This project provided the foundation of my understanding and connection between the backend and frontend we had been learning. ",
         "images": [
           "images/portfolio/overnightsns/osns1.png",
           "images/portfolio/overnightsns/osns2.png"
@@ -81,6 +97,14 @@
           {
             "class": "devicon-express-original",
             "name": "Express"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS 3"
           }
         ]
       }
