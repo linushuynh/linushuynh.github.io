@@ -93,10 +93,11 @@ class App extends Component {
                 window.$secondaryLanguageIconId
               )
             }
-            style={{ display: "inline" }}
+            style={{ display: "flex", justifyContent: "center" }}
           >
             <span
-              className="iconify language-icon mr-5"
+              // className="iconify language-icon mr-5"
+              className="iconify language-icon"
               // data-icon="twemoji-flag-for-flag-united-states"
               data-icon="material-symbols:arrow-drop-down-rounded"
               data-inline="false"
