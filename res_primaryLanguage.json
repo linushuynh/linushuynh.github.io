@@ -48,8 +48,9 @@
         "startDate": "Nov 2022",
         "description": "A Discord-clone made in collaboration with 3 other peers from App Academy bootcamp. We cultivated a team environment where each member was valuable and respected. We also simulated a professional Git workflow through branches and pair programming sessions which reduced debugging time and set clear expectations of various objectives.",
         "images": [
-          "images/portfolio/hangersacademy/hangers3.png",
           "images/portfolio/hangersacademy/hangers1.png",
+          "images/portfolio/hangersacademy/hangers3.png",
+          "images/portfolio/hangersacademy/hangerslanding.png",
           "images/portfolio/hangersacademy/hangers2.png"
         ],
         "url": "https://hangersacademy.com/",
@@ -84,7 +85,7 @@
           "images/portfolio/overnightsns/osns1.png",
           "images/portfolio/overnightsns/osns2.png"
         ],
-        "url": "https://github.com",
+        "url": "https://overnightsns.onrender.com/",
         "technologies": [
           {
             "class": "devicon-react-original",
