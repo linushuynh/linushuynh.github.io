@@ -121,6 +121,13 @@ header h1 {
 	text-align: center;
 }
 
+#about-links {
+	display: flex;
+	flex-direction: column;
+	gap: 4rem;
+	font-size: 2rem;
+}
+
 .foto img {
 	display: block;
 	width: 100%;
@@ -375,6 +382,14 @@ header h1 {
 	}
 	.portfolio .portfolio-item {
 		margin-bottom: 30px;
+	}
+
+	#about-links {
+		flex-direction: row;
+	}
+
+	.card {
+		margin-top: 3rem;
 	}
 }
 

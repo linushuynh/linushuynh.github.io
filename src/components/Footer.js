@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import resume from "../moreassets/Linus_Huynh_Resume_2_7_23.pdf"
 
 class Footer extends Component {
   render() {
@@ -17,15 +18,28 @@ class Footer extends Component {
     return (
       <footer>
         <div className="col-md-12">
-          <div className="social-links">{networks}</div>
+          <div className="social-links">
+            {networks}
+            <span className="m-4">
+                  <a href={resume} target="_blank" rel="noopener noreferrer">
+                    <i className="fas fa-file-user" />
+                  </a>
+            </span>
+            <span className="m-4" >
+              <a href="mailto:linusmhuynh@gmail.com" target="_blank" rel="noopener noreferrer">
+                <i className="fas fa-envelope" />
+                <span style={{ fontSize: "13px", marginLeft: "5px" }}>linusmhuynh@gmail.com</span>
+              </a>
+            </span>
+          </div>
 
           <div className="copyright py-4 text-center">
             <div className="container">
               <small>
-                Copyright &copy;{" "}
                 {this.props.sharedBasicInfo
                   ? this.props.sharedBasicInfo.name
                   : "???"}
+
               </small>
             </div>
           </div>
