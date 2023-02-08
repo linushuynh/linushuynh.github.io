@@ -2,6 +2,16 @@ body[data-theme="dark"] {
 
    @import '../src/scss/dark-slider.scss';
 
+
+   .links {
+      color: #FFFFFF;
+      transition: color 125ms;
+   }
+
+   .links:hover {
+      color: #BBBBBB;
+   }
+
    .slider-tab {
       background-color: #8C8C8C;
    }

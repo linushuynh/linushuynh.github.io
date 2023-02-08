@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Typical from "react-typical";
 import Switch from "react-switch";
 import pikarun from "../moreassets/pikarun.gif"
+import resume from "../moreassets/Linus_Huynh_Resume_2_7_23.pdf"
 
 class Header extends Component {
   titles = [];
@@ -126,6 +127,17 @@ class Header extends Component {
               />
             </div>
           </div>
+          <div id="link-icons">
+                      <a href="https://github.com/linushuynh" target="_blank" rel="noopener noreferrer" className="links">
+                        <i className="fab fa-github" />
+                      </a>
+                      <a href="https://www.linkedin.com/in/linus-huynh/" target="_blank" rel="noopener noreferrer" className="links">
+                        <i className="fab fa-linkedin"/>
+                      </a>
+                      <a href={resume} target="_blank" rel="noopener noreferrer" className="links">
+                        <i className="fas fa-file-user"/>
+                      </a>
+                    </div>
         </div>
       </header>
     );

@@ -1,6 +1,15 @@
 body[data-theme="light"] {
     @import '../src/scss/light-slider.scss';
 
+    .links {
+        color: #000000;
+        transition: color 200ms;
+     }
+
+    .links:hover {
+        color: #433e3e;
+    }
+
     .slider-tab {
        background-color: #8EE4AE;
     }
