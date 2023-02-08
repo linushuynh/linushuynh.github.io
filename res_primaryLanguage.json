@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hey there!",
-      "description": "My name's Linus. Before my time as a software engineer, I graduated with a B.S. in Psychology at University of California, Riverside. Eventually, I decided that my current path was not a proper fit for me and decided to pursue a field that revolved more around computers since that was where I was most comfortable and most versed in. I discovered software engineering and enrolled at App Academy, a rigorous 1000+ hr software engineering bootcamp. Over the course of the bootcamp, I discovered how immersive and stimulating coding could really be for and I believe my projects reflect that. Check out the some of my projects and more below! ",
+      "description": "My name's Linus. Before my time as a software engineer, I graduated with a B.S. in Psychology at University of California, Riverside. Eventually, I decided that my current path was not a proper fit for me and decided to pursue a field that revolved more around computers since that was where I was most comfortable and most versed in. I discovered software engineering and enrolled at App Academy, a rigorous 1000+ hr software engineering bootcamp. Over the course of the bootcamp, I discovered how immersive and stimulating coding could really be and I believe my projects reflect that. Check out the some of my projects and more below! ",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -13,7 +13,8 @@
       {
         "title": "Limontrello",
         "startDate": "Dec 2022",
-        "description": "A productivity tool inspired by Trello that helps organize your tasks for any topic. This is my most proudful project to date because of not only the styling but the functionality for dragging tasks around. The development process utilized an Agile workflow which allowed for space for flexibility and less bugs. Additionally, the drag and drop functionality was implemented through React Beautiful DnD to deliver smooth and intuitive user interactions",
+        "repo": "https://github.com/linushuynh/Limontrello",
+        "description": "A productivity tool inspired by Trello that helps organize your tasks for any topic. Leveraged DB relationships from SQLAlchemy to load all necessary data in only one request, reducing server load. Utilized the onBlur method of input elements to save updated data into the database and create an auto-save effect when users edit specific texts, enhancing user experience (UX). Optimized code by employing the useContext hook from React to manage state changes and initiate component re-renders after a user interacts with an element, resulting in more DRY code. Integrated drag and drop functionality through React Beautiful DnD by transforming React JSX elements into Draggables and Droppables then assigning customized behaviors to create a more intuitive user interaction",
         "images": [
           "images/portfolio/limontrello/limontrello1.png",
           "images/portfolio/limontrello/limontrello2.png",
@@ -46,7 +47,8 @@
       {
         "title": "Hangers Academy",
         "startDate": "Nov 2022",
-        "description": "A Discord-clone made in collaboration with 3 other peers from App Academy bootcamp. We cultivated a team environment where each member was valuable and respected. We also simulated a professional Git workflow through branches and pair programming sessions which reduced debugging time and set clear expectations of various objectives.",
+        "repo": "https://github.com/WhirlyFan/Hangers-Academy",
+        "description": "A Discord-clone made in collaboration with 3 other peers from App Academy bootcamp. Streamlined authorization by designing a user authorization function and integrating it into API routes that require specific authorization, creating reusable code to enable future development. Integrated database schemas into production, enabling the live database to safely store data for many applications. Employed the useRef hook from React to smoothly scroll the page down to any newly received messages, elevating user immersion when chatting with someone.Implemented CSS media queries on the landing page, ensuring full responsiveness and compatibility across a larger range of devices, including mobile iOS.",
         "images": [
           "images/portfolio/hangersacademy/hangers1.png",
           "images/portfolio/hangersacademy/hangers3.png",
@@ -80,7 +82,8 @@
       {
         "title": "Overnight SnS",
         "startDate": "Oct 2022",
-        "description": "My first project during my time at App Academy. This project provided the foundation of my understanding and connection between the backend and frontend we had been learning. ",
+        "repo": "https://github.com/linushuynh/Overnight-Sofa-N-Supper",
+        "description": "My first project during my time at App Academy. Implemented Express-Validator package to validate incoming POST and PUT requests by defining the validations and affixing it in the appropriate API routes and resulting in effective and concise backend validation. Reduced loading speed of the application by loading data into the Redux store and sending updates to it directly, maintaining it as the single-source-of-truth for React components. Utilized Google Maps API to visually map and display locations of spots, enhancing user engagement. Incorporated conditional rendering for many React components to dynamically render elements based on React state, enhancing application responsiveness.",
         "images": [
           "images/portfolio/overnightsns/osns1.png",
           "images/portfolio/overnightsns/osns2.png"
