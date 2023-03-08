@@ -110,10 +110,10 @@ header h1 {
 #about {
 	background: #fff;
 	overflow: hidden;
+	padding: 3rem 0 4rem 0;
 }
 
 #about h1 {
-	padding-top: 5%;
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
@@ -126,10 +126,17 @@ header h1 {
 	flex-direction: column;
 	gap: 4rem;
 	font-size: 2rem;
+	padding-bottom: 1rem;
+}
+
+#about-links > a, #mail-link {
+	color: #41B46C;
 }
 
 #link-icons {
+	margin-top: 1rem;
 	display: flex;
+	justify-content: center;
 	gap: 4rem;
 	font-size: 3.5rem;
  }
@@ -388,6 +395,10 @@ header h1 {
 	}
 	.portfolio .portfolio-item {
 		margin-bottom: 30px;
+	}
+
+	#about {
+		padding: 10rem 0 9rem 0;
 	}
 
 	#about-links {
