@@ -23,7 +23,7 @@ const greeting = {
   username: "Linus Huynh",
   title: "Hi I'm Linus",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 with experience building web applications in JavaScript / Python / React.js / Node.js and other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 experienced in building web applications with JavaScript / Python / React.js and other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/135W6wHV4McCYgBhywsR_NqMcaedO1Lko/view?usp=sharing", // Set to empty to hide the button
@@ -49,14 +49,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE FUN FRAMEWORKS AND LIBRARIES",
+  subTitle: "FULL STACK DEVELOPER EXPLORING FUN FRAMEWORKS AND LIBRARIES",
   skills: [
     emoji(
       "⚡ Develop highly engaging Front end / User Interfaces for web applications"
     ),
     emoji("⚡ Write QA tests to maintain proper functionality on any website"),
     emoji(
-      "⚡ Integration of third party services (ex. Google Cloud Platform)"
+      "⚡ Integrate third party services (ex. Google Cloud Platform)"
     ),
   ],
 
@@ -97,7 +97,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "github",
+      skillName: "git",
       fontAwesomeClassname: "fab fa-github-alt"
     },
   ],
@@ -116,9 +116,9 @@ const educationInfo = {
       duration: "August 2022 - January 2023",
       desc: "A comprehensive, full-stack web development course totalling over 1000 hours of immersion.",
       descBullets: [
-        "Languages: Python, JavaScript",
-        "Frameworks & Libraries: React, Redux, Flask, SQLAlchemy, React Beautiful DnD",
-        "Concepts: Data structures & Algorithms, Object Oriented Programming, Agile development, Scrum & Kanban, Test driven development, and more"
+        "Python, JavaScript",
+        "React, Redux, Flask, SQLAlchemy, and PostgreSQL",
+        "Data Structures & Algorithms, Object Oriented Programming, Agile development, Scrum & Kanban, Test driven development, and more"
       ]
     },
     {
@@ -141,15 +141,15 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "80%" //Insert relative proficiency in percentage
+      progressPercentage: "95%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "90%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "65%"
+      progressPercentage: "85%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -218,7 +218,7 @@ const bigProjects = {
     {
       image: require("./assets/images/hangersacademyLogo.png"),
       projectName: "Hangers Academy",
-      projectDesc: "A Discord-like web application made in collaboration with 3 other peers.",
+      projectDesc: "A Discord-like web application developed across one week in collaboration with three other peers .",
       footerLink: [
         {
           name: "Visit Website",
@@ -233,7 +233,7 @@ const bigProjects = {
     {
       image: require("./assets/images/overnightsns.png"),
       projectName: "Overnight S&S",
-      projectDesc: "Overnight Sofa & Supper is a JavaScript project at App Academy based on AirBnB.",
+      projectDesc: "A 2-week JavaScript project at App Academy based on AirBnB.",
       footerLink: [
         {
           name: "Visit Website",

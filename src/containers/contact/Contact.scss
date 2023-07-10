@@ -12,6 +12,11 @@
   flex: 1;
 }
 
+.contact-header {
+  display: flex;
+  align-items: center;
+}
+
 .contact-title {
   font-size: 65px;
   font-weight: 400;
@@ -54,6 +59,10 @@
 
 /* Media Query */
 @media (max-width: 1380px), (max-width: 768px) {
+  .contact-header {
+    justify-content: center;
+  }
+
   .contact-title {
     font-size: 56px;
     font-weight: 400;

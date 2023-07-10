@@ -8,6 +8,12 @@
 
 .skills-text-div {
   margin-left: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.skills-text-div > div {
+  height: fit-content;
 }
 
 .skills-main-div > * {
