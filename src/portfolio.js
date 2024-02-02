@@ -123,7 +123,7 @@ const educationInfo = {
     },
     {
       schoolName: "University of California, Riverside",
-      logo: require("./assets/images/ucrlogo.jpg"),
+      logo: require("./assets/images/ucrlogo2.png"),
       subHeader: "Bachelor of Science in Psychology",
       duration: "September 2018 - June 2022",
       // desc: "",
@@ -222,7 +222,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://hangersacademy.com/"
+          url: "https://hangersacademy.onrender.com/"
         },
         {
           name: "Github Repo",
