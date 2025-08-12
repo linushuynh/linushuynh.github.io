@@ -54,7 +54,11 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly engaging Front end / User Interfaces for web applications"
     ),
+    emoji("⚡ Build efficient APIs and Backend services that can interact with databases and external webhooks"),
     emoji("⚡ Write QA tests to maintain proper functionality on any website"),
+    emoji(
+      "⚡ Document with Swagger and OpenAPI to help other developers quickly understand and test APIs"
+    ),
     emoji(
       "⚡ Integrate third party services (ex. Google Cloud Platform)"
     ),
@@ -156,30 +160,55 @@ const techStack = {
 };
 
 // Work experience section
-
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+    // {
+    //   role: "Research Assistant",
+    //   company: "UCR Adversity and Adaptation Lab",
+    //   companylogo: require("./assets/images/ucrlogo.jpg"),
+    //   date: "June 2021 – June 2022",
+    //   desc: "The AD Lab is a scholarly research lab committed to the study of how children are affected by, and in many cases successfully negotiate, different kinds of adverse life experiences.",
+    //   descBullets: [
+    //     "Conducted mock interviews with 50 children and young adults to examine behavioral adaptations to stress",
+    //     "Manually cleaned qualitative data from students’ daily journals for analysis to support professor’s hypothesis"
+    //   ]
+    // },
+    // {
+    //   role: "Research Assistant",
+    //   company: "Brain Game Center",
+    //   companylogo: require("./assets/images/bgclogo.png"),
+    //   date: "June 2021 – June 2022",
+    //   desc: "The Brain Game Center researches, tests, and disseminates scientifically optimized brain fitness games that assist people in real-life activities.",
+    //   descBullets: [
+    //     "Administered gamified psychological tests and managed high stakes data that measured memory and perceptual abilities from the research participants",
+    //     "Maintained quality assurance of gaming applications through beta testing and debugging"
+    //   ]
+    // },
     {
-      role: "Research Assistant",
-      company: "UCR Adversity and Adaptation Lab",
-      companylogo: require("./assets/images/ucrlogo.jpg"),
-      date: "June 2021 – June 2022",
-      desc: "The AD Lab is a scholarly research lab committed to the study of how children are affected by, and in many cases successfully negotiate, different kinds of adverse life experiences.",
+      role: "Full Stack Software Engineer",
+      compant: "curaJOY",
+      companylogo: require("./assets/images/curaJOY.jpg"),
+      date: "Feb 2024 - Present",
+      desc: "As a non-profit organization, curaJOY supports families’ social and mental health by providing practical and collaborative solutions that are proactive and community-driven with personalized and on-demand coaching and behavioral health support",
       descBullets: [
-        "Conducted mock interviews with 50 children and young adults to examine behavioral adaptations to stress",
-        "Manually cleaned qualitative data from students’ daily journals for analysis to support professor’s hypothesis"
+        "Overhauled UI of Assessments feature to align with new Figma designs, ensuring web responsiveness with TailwindCSS breakpoints for optimal user interaction across devices.",
+        "Incorporated omni-channel capabilities into chatbot, enabling user communication via WhatsApp, SMS, and web app for enhanced convenience.",
+        "Upgraded login and registration flow with password and one-time password (OTP) using AWS Cognito, resulting in a streamlined user entry experience.",
+        "Lead team stand-up meetings and collaborated with cross-functional teams to distribute tasks, gather requirements, and implement innovative features.",
       ]
     },
     {
-      role: "Research Assistant",
-      company: "Brain Game Center",
-      companylogo: require("./assets/images/bgclogo.png"),
-      date: "June 2021 – June 2022",
-      desc: "The Brain Game Center researches, tests, and disseminates scientifically optimized brain fitness games that assist people in real-life activities.",
+      role: "Junior Full-Stack Software Developer",
+      compant: "Bantr",
+      companylogo: require("./assets/images/bantr_white_bg.jpeg"),
+      date: "July 2024 - Aug 2025",
+      desc: "The sports management platform designed to make organizing and playing adult sports easy and fun.",
       descBullets: [
-        "Administered gamified psychological tests and managed high stakes data that measured memory and perceptual abilities from the research participants",
-        "Maintained quality assurance of gaming applications through beta testing and debugging"
+        "Developed backend functionality for a new waivers feature by creating a new database table, designing 4 new API endpoints, and updating 2 existing endpoints using Knex.js and Objection.js, which facilitated players’ liability in participation of soccer activities",
+        "Assembled the UI for the waivers feature within the React Native mobile app by extending existing custom modal and button components, enabling players to conveniently sign waivers directly from their mobile devices",
+        "Outlined the waivers' feature backend implementation plan and documented new API endpoints using the OpenAPI Specification (Swagger), enhancing developer understanding and testability of the new waivers feature",
+        "Crafted comprehensive documentation for new API endpoints with Swagger to meet the OpenAPI Specification, elevating team efficiency and ensuring clarity in backend processes"
       ]
     },
   ]
@@ -197,7 +226,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Cool Projects",
-  subtitle: "MY COOL PROJECTS THAT HELPED ME LEARN NEW FRAMEWORKS AND LIBRARIES",
+  subtitle: "MY (OLD) COOL PROJECTS THAT HELPED ME LEARN NEW FRAMEWORKS AND LIBRARIES",
   projects: [
     {
       image: require("./assets/images/limontrello.png"),
@@ -215,36 +244,36 @@ const bigProjects = {
         //  you can add extra buttons here.
       ]
     },
-    {
-      image: require("./assets/images/hangersacademyLogo.png"),
-      projectName: "Hangers Academy",
-      projectDesc: "A Discord-like web application developed across one week in collaboration with three other peers .",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://hangersacademy.onrender.com/"
-        },
-        {
-          name: "Github Repo",
-          url: "https://github.com/WhirlyFan/Hangers-Academy"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/overnightsns.png"),
-      projectName: "Overnight S&S",
-      projectDesc: "A 2-week JavaScript project at App Academy based on AirBnB.",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://overnightsns.onrender.com/"
-        },
-        {
-          name: "Github Repo",
-          url: "https://github.com/linushuynh/Overnight-Sofa-N-Supper"
-        }
-      ]
-    }
+    // {
+    //   image: require("./assets/images/hangersacademyLogo.png"),
+    //   projectName: "Hangers Academy",
+    //   projectDesc: "A Discord-like web application developed across one week in collaboration with three other peers .",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "https://hangersacademy.onrender.com/"
+    //     },
+    //     {
+    //       name: "Github Repo",
+    //       url: "https://github.com/WhirlyFan/Hangers-Academy"
+    //     }
+    //   ]
+    // },
+    // {
+    //   image: require("./assets/images/overnightsns.png"),
+    //   projectName: "Overnight S&S",
+    //   projectDesc: "A 2-week JavaScript project at App Academy based on AirBnB.",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "https://overnightsns.onrender.com/"
+    //     },
+    //     {
+    //       name: "Github Repo",
+    //       url: "https://github.com/linushuynh/Overnight-Sofa-N-Supper"
+    //     }
+    //   ]
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
